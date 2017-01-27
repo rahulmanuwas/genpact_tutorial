@@ -1,7 +1,9 @@
 ## Tutorial: Machine Learning with Text in scikit-learn
 
 Presented by [Rahul Yadav](https://in.linkedin.com/in/rahulmanuwas)
- 
+
+Credits to the tutorial goes to [Kevin Markham](https://www.linkedin.com/in/justmarkham)
+Most of the code is influenced by Kevin's Tutorial found [here](https://www.youtube.com/watch?v=ZiKMIuYidY0&list=PL5-da3qGB5ICeMbQuqbbCOQWcS6OYBr5A&index=10) and check out his data school website [here](http://www.dataschool.io/about/)
 
 ### Description
 
