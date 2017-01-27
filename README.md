@@ -1,8 +1,7 @@
 ## Tutorial: Machine Learning with Text in scikit-learn
 
-Presented by [Kevin Markham](http://www.dataschool.io/about/) at PyCon on May 28, 2016. Watch the complete [tutorial video](https://www.youtube.com/watch?v=ZiKMIuYidY0&list=PL5-da3qGB5ICeMbQuqbbCOQWcS6OYBr5A&index=10) on YouTube.
-
-[![Watch the complete tutorial video on YouTube](youtube.jpg)](https://www.youtube.com/watch?v=ZiKMIuYidY0&list=PL5-da3qGB5ICeMbQuqbbCOQWcS6OYBr5A&index=10 "Machine Learning with Text in scikit-learn - PyCon 2016")
+Presented by [Rahul Yadav](https://in.linkedin.com/rahulmanuwas)
+ 
 
 ### Description
 
@@ -12,24 +11,7 @@ Although numeric data is easy to work with in Python, most knowledge created by 
 
 By the end of this tutorial, attendees will be able to confidently build a predictive model from their own text-based data, including feature extraction, model building and model evaluation.
 
-### Required Software
 
-Attendees will need to bring a laptop with [scikit-learn](http://scikit-learn.org/stable/install.html) and [pandas](http://pandas.pydata.org/pandas-docs/stable/install.html) (and their dependencies) already installed. Installing the [Anaconda distribution of Python](https://www.continuum.io/downloads) is an easy way to accomplish this. Both Python 2 and 3 are welcome.
-
-I will be leading the tutorial using the IPython/Jupyter notebook, and have added a pre-written notebook to this repository. I have also created a Python script that is identical to the notebook, which you can use in the Python environment of your choice.
-
-### Tutorial Files
-
-* IPython/Jupyter notebooks: [tutorial.ipynb](tutorial.ipynb), [tutorial_with_output.ipynb](tutorial_with_output.ipynb), [exercise.ipynb](exercise.ipynb), [exercise_solution.ipynb](exercise_solution.ipynb)
-* Python scripts: [tutorial.py](tutorial.py), [exercise.py](exercise.py), [exercise_solution.py](exercise_solution.py)
-* Datasets: [data/sms.tsv](data/sms.tsv), [data/yelp.csv](data/yelp.csv)
-
-### Prerequisite Knowledge
-
-Attendees to this tutorial should be comfortable working in Python, should understand the basic principles of machine learning, and should have at least basic experience with both pandas and scikit-learn. However, no knowledge of advanced mathematics is required.
-
-- If you need a refresher on scikit-learn or machine learning, I recommend reviewing the notebooks and/or videos from my [scikit-learn video series](https://github.com/justmarkham/scikit-learn-videos), focusing on videos 1-5 as well as video 9. Alternatively, you may prefer reading the [tutorials](http://scikit-learn.org/stable/tutorial/index.html) from the scikit-learn documentation.
-- If you need a refresher on pandas, I recommend reviewing the notebook and/or videos from my [pandas video series](https://github.com/justmarkham/pandas-videos). Alternatively, you may prefer reading this 3-part [tutorial](http://www.gregreda.com/2013/10/26/intro-to-pandas-data-structures/).
 
 ### Abstract
 
@@ -49,12 +31,6 @@ In this tutorial, we'll answer all of those questions, and more! We'll start by 
 8. Practicing this workflow on another dataset
 9. Tuning the vectorizer (discussion)
 
-### About the Instructor
-
-Kevin Markham is the founder of [Data School](http://www.dataschool.io/) and the former lead instructor for [General Assembly's Data Science course](https://github.com/justmarkham/DAT8) in Washington, DC. He is passionate about teaching data science to people who are new to the field, regardless of their educational and professional backgrounds, and he enjoys teaching both online and in the classroom. Kevin's professional focus is supervised machine learning, which led him to create the popular [scikit-learn video series](https://github.com/justmarkham/scikit-learn-videos) for Kaggle. He has a degree in Computer Engineering from Vanderbilt University.
-
-* Email: [kevin@dataschool.io](mailto:kevin@dataschool.io)
-* Twitter: [@justmarkham](https://twitter.com/justmarkham)
 
 ### Recommended Resources
 
@@ -69,14 +45,9 @@ Kevin Markham is the founder of [Data School](http://www.dataschool.io/) and the
 **Naive Bayes and logistic regression:**
 * Read this brief Quora post on [airport security](http://www.quora.com/In-laymans-terms-how-does-Naive-Bayes-work/answer/Konstantin-Tt) for an intuitive explanation of how Naive Bayes classification works.
 * For a longer introduction to Naive Bayes, read Sebastian Raschka's article on [Naive Bayes and Text Classification](http://sebastianraschka.com/Articles/2014_naive_bayes_1.html). As well, Wikipedia has two excellent articles ([Naive Bayes classifier](http://en.wikipedia.org/wiki/Naive_Bayes_classifier) and [Naive Bayes spam filtering](http://en.wikipedia.org/wiki/Naive_Bayes_spam_filtering)), and Cross Validated has a good [Q&A](http://stats.stackexchange.com/questions/21822/understanding-naive-bayes).
-* My [guide to an in-depth understanding of logistic regression](http://www.dataschool.io/guide-to-logistic-regression/) includes a lesson notebook and a curated list of resources for going deeper into this topic.
-* [Comparison of Machine Learning Models](https://github.com/justmarkham/DAT8/blob/master/other/model_comparison.md) lists the advantages and disadvantages of Naive Bayes, logistic regression, and other classification and regression models.
 
 **scikit-learn:**
 * The scikit-learn user guide includes an excellent section on [text feature extraction](http://scikit-learn.org/stable/modules/feature_extraction.html#text-feature-extraction) that includes many details not covered in today's tutorial.
 * The user guide also describes the [performance trade-offs](http://scikit-learn.org/stable/modules/computational_performance.html#influence-of-the-input-data-representation) involved when choosing between sparse and dense input data representations.
-* To learn more about evaluating classification models, watch video #9 from my [scikit-learn video series](https://github.com/justmarkham/scikit-learn-videos) (or just read the associated [notebook](https://github.com/justmarkham/scikit-learn-videos/blob/master/09_classification_metrics.ipynb)).
 
-**pandas:**
-* Here are my [top 8 resources for learning data analysis with pandas](http://www.dataschool.io/best-python-pandas-resources/).
-* As well, I have a new [pandas Q&A video series](http://www.dataschool.io/easier-data-analysis-with-pandas/) targeted at beginners that includes two new videos every week.
+
