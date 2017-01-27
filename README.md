@@ -1,6 +1,6 @@
 ## Tutorial: Machine Learning with Text in scikit-learn
 
-Presented by [Rahul Yadav](https://in.linkedin.com/rahulmanuwas)
+Presented by [Rahul Yadav](https://in.linkedin.com/in/rahulmanuwas)
  
 
 ### Description
